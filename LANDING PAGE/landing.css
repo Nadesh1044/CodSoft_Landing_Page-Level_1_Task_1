@@ -1,0 +1,78 @@
+.btn2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border-radius: 0;
+	background-color: #21618C ;
+}
+.btn2:hover{
+	background-color: wheat;
+	color: black;
+	transition: 0.9s;
+}
+.news{
+	align-items: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+.wrapper{
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.image{
+	width:450px;
+	position:relative;
+}
+.cannada{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.content{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background: rgba(0,0,0,0.5) ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	transition: 0.6s;
+}
+.content:hover{
+	opacity: 1;
+}
+.content h3{
+	font-size: 42px;
+	color: #00ff84;
+	margin-bottom: 10px;
+}
+.content > *{
+	transform: translateY(25px);
+	transition: transform 0.6s;
+}
+.content:hover > *{
+	transform: translateY(0px);
+	}
+
+.space{
+	background-color: lightblue;
+}
+.e{
+	width:480px;
+}
+.e:hover{
+	background-color: palegoldenrod;
+    transition: 0.5s;
+}
+.m:hover{
+	background-color: grey;
+	transition: 0.6s;
+}
